@@ -27,3 +27,24 @@ This is a self-contained frontend-only task using mock data.
 
 ### 🧪 How to Test Locally
 Run:
+npm install
+npm run dev
+
+
+This loads the test environment defined in `mock-app.tsx`.
+
+### 📁 Files You Should Modify
+- `TypingTest.tsx`
+
+### 🚫 Files You Should NOT Modify
+- `mock-test-data.ts`
+- `mock-app.tsx`
+
+### 📝 Submission
+Submit a PR including:
+- Completed typing test component
+- Working WPM & accuracy logic
+- Clean visual feedback (colors, highlights)
+- Restart functionality
+
+Have fun — this task helps build real UI + logic skills!
