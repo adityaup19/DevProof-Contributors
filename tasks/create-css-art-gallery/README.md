@@ -11,25 +11,17 @@ Each artwork will appear as an interactive card in a responsive grid layout.
 
 ✔ Requirements
 
-Build a grid-based gallery page (ArtGallery.tsx)
+-Build a grid-based gallery page (ArtGallery.tsx)
 
-Each card must show:
-
-Title
-
-Creator name
-
-CSS-only preview (from mock-art-data.ts)
-
-Add hover effects (scale, glow, rotate, etc.)
-
-Include transitions or animations
-
-Must be responsive (desktop + mobile)
-
-Use data from mock-art-data.ts
-
-No images or canvas allowed — CSS only
+-Each card must show:
+-Title
+-Creator name
+-CSS-only preview (from mock-art-data.ts)
+-Add hover effects (scale, glow, rotate, etc.)
+-Include transitions or animations
+-Must be responsive (desktop + mobile)
+-Use data from mock-art-data.ts
+-No images or canvas allowed — CSS only
 
 🧪 How to Test This Task
 
