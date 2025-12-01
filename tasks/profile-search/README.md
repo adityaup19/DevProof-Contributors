@@ -26,9 +26,28 @@ Use a clean UI and responsive layout.
 - Responsive design
 
 ### 🧪 How to Test Locally
-Run:
+This repo includes a sandbox that lets you preview your work.
+1. Open the repo in VS Code (or any editor)
+2. Install dependencies:
 npm install
+
+3. Start the sandbox:
 npm run dev
+
+4. Open this task in your browser:
+http://localhost:5173/tasks/<this-task-folder>
+
+(Example for this task:
+ http://localhost:5173/tasks/create-css-art-gallery)
+5. Edit the index.tsx file in this folder
+Inside index.tsx, import your component and return it:
+import MyComponent from "./MyComponent";
+
+export default function TaskPreview() {
+  return <MyComponent />;
+}
+
+Your component will now appear live in the browser.
 
 This loads the test environment defined in `mock-app.tsx`.
 
