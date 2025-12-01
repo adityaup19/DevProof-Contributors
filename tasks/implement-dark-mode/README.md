@@ -15,8 +15,25 @@ Build a Dark Mode toggle component that switches the application between light a
 - UI should update instantly when toggled.
 
 ### 🧪 How to Test Locally
-1. Run:
-2. This will load the demo environment defined in `mock-app.tsx`.
+1. Open the repo on your device (VS Code recommended)
+2. Install dependencies:
+npm install
+
+3. Start the sandbox:
+bash
+
+npm run dev
+4. Open this task's preview:
+http://localhost:5173/tasks/implement-dark-mode
+
+5. Edit the index.tsx file inside this folder
+
+Import your component and render it:
+import DarkModeToggle from "./DarkModeToggle";
+
+export default function TaskPreview() {
+  return <DarkModeToggle />;
+}
 
 ### 📁 Files You Should Modify
 - `DarkModeToggle.tsx`
@@ -28,8 +45,9 @@ Build a Dark Mode toggle component that switches the application between light a
 ### 📝 Submission
 Submit a Pull Request with:
 - Your completed toggle button UI
-- Working persistence
+- Working on/off
 - Clean and readable code
+-Local Storage Persistance
 
 Good luck and happy building 🚀
 
